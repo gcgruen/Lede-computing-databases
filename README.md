@@ -2,7 +2,7 @@
 Repository for Foundations class homework
 # Here's maybe another header
 we are doing *sime stuff right here*
-what does **two stars do* versus *one star*???
+what does **two stars do** versus *one star*???
 Maybe we can [add a link](www.google.com)
 ## What does this do
 Good kind of pancakes:
