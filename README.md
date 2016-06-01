@@ -6,9 +6,9 @@ what does **two stars do** versus *one star*???
 Maybe we can [add a link](www.google.com)
 ## What does this do
 Good kind of pancakes:
-*Okonomyaki
-*Dorayaki
-*Injera
+* Okonomyaki
+* Dorayaki
+* Injera
 ### I don't really know what's going on
 Here's some more text
 and yet some more text
