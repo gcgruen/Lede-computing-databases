@@ -6,3 +6,6 @@ Also TAs, at some point I have two answers for the same question (number 6), bec
 ### New York Times
 This one was really difficult, especially towards the end. Luckily, finally it worked out nonetheless.
 Also found that it is useful to write down (in words, not code) a breakdown of the single steps needed to get the answer.
+
+Would also recommend, if you re-do this homework in future classes, let people know about the old API documentation! As with the new one you don't really find anything (the base URI is basically hidden like an easter egg...) and once you have discovered the readme vs documentation for each API, you'll find yourself jumping back and forth. Which we don't like, because we are lazy programmers ;)
+And on the old version, information is much better organized and accessible.
