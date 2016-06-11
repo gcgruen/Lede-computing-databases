@@ -9,3 +9,17 @@ Also found that it is useful to write down (in words, not code) a breakdown of t
 
 Would also recommend, if you re-do this homework in future classes, let people know about the old API documentation! As with the new one you don't really find anything (the base URI is basically hidden like an easter egg...) and once you have discovered the readme vs documentation for each API, you'll find yourself jumping back and forth. Which we don't like, because we are lazy programmers ;)
 And on the old version, information is much better organized and accessible.
+
+### Lil' Graphics
+Nice to do something non-python-y ;)
+How I proceeded:
+1) Copy results into atom, make it a csv with "name, score"
+2) Import into Excel and convert into xls
+3) Sort by popularity
+4) Define values for bar chart
+5) Optimize layout of the chart
+
+The final chart I uploaded both, as a jpg file as well as within the xls file.
+
+### Search Engine
+Great to work in atom again, to get back to the roots and be reminded of the twists & tweaks neccessary here. Somehow I like working in atom more than iPython-notebook, I have to say.
