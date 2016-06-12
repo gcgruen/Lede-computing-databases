@@ -22,4 +22,6 @@ How I proceeded:
 The final chart I uploaded both, as a jpg file as well as within the xls file.
 
 ### Search Engine
-Great to work in atom again, to get back to the roots and be reminded of the twists & tweaks neccessary here. Somehow I like working in atom more than iPython-notebook, I have to say.
+Great to work in atom again, to get back to the roots and be reminded of the twists & tweaks necessary here. Somehow I like working in atom more than iPython-notebook, I have to say.
+This was a REALLY challenging task. But I like challenges a lot!
+Also I think it's basically a lot of repetition but helps understanding the effects of nesting even better.
