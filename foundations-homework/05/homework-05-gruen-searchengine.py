@@ -129,13 +129,8 @@ for album_element in album_list:
         track_count = track_count + 1
     total_popularity = sum(track_popularity_total)
     average_popularity = total_popularity/track_count
-    #total_popularity_dict = {'total_popularity': total_popularity}
-    #average_popularity_dict = {'average_popularity': average_popularity}
-    #album_list.append(average_popularity_dict)
-    #print("The tracks on this album have a TOTAL POPULARITY of:", total_popularity)
     album_popularity_dict = {'album_name': album_element['album_title'], 'average_popularity_value': average_popularity}
     album_and_popularity.append(album_popularity_dict)
-    #print("As the album", album_element['album_title'], "counts", track_count, "tracks with a total popularity of", total_popularity, "it means, this album has an AVERAGE POPULARITY of", average_popularity)
     #print(album_popularity_dict)
 
 # STEP 10: Determining the most popular and least popular
@@ -146,6 +141,7 @@ for thing in album_and_popularity:
         most_popular_album_rating = thing['average_popularity_value']
         most_popular_album_name = thing['album_name']
 
+#did not work in the same loop as most_popular has had to be defined before starting this least popular loop
 least_popular_album_rating = most_popular_album_rating
 least_popular_album_name = []
 for thing in album_and_popularity:
