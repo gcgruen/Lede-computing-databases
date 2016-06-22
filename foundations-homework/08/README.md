@@ -68,3 +68,5 @@ The dataset I prepared does not hold information for 12 questions, but I still w
 * **Scatter plot**: Questions that came up during plotting: How to make x a timeline to plot incidents against? How to convert a date column in a python-readable date column?
 
 *Dataset3 Takeaways*
+
+* **Line graph/plotting sth. over time**: Tried to plot over time (after extracting the data for that), but haven't yet figured how that works...continue trying (question12)
