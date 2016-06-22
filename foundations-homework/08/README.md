@@ -6,13 +6,20 @@ The dataset I prepared does not hold information for 12 questions, but I still w
 
 * Dataset2: **Baggage Claims** After figuring that with the first dataset was too small with relation to available columns to ask questions to, I made sure that this would not be a problem with the next data set. So I chose a dataset listing all the passanger complaints related to baggage. Already while preparing the questions I figured, to get a (journalistically) more reliable output, you'd need to normalize the data over the number of flights carried out by airline/at airport (as an airline/airport responsible for more flights will automatically also have more incidents). As this is just homework, I passed out on that one ;)
 
-* Dataset3:
+* Dataset3: **Refugees** I have worked on Refugee Datasets before, but only with Excel which turned out to be not only arduous but also prone to mistakes. So I see working with this dataset as kind of a test to see whether it's easier with Python. Also I wanted to try what it is like to work with an even bigger dataset. So far, size Dataset1 < Dataset2 < Dataset3
 
 ## Useful things:
 
 ### DATA
 
 * **positioning of columns**: in Excel, if I calculate sth from column 2 and 3, I would put the result next to it in column 4. Per panda-default, it would be in the last - but there's a command for manipulating: df.insert(index, 'columnname', value) -- be careful to run the cell only once, otherwise it'll yell at you that a column with that name already exists (and you'll then have to run all cells in iPython anew)
+
+* **coverting random date format into sth Python can read**:
+`from datetime import datetime`
+`date_object = datetime.strptime('28-May-15', '%d-%b-%y')`
+`print(date_object)`
+
+* **What unique values exist within a column?"** df['columnname'].unique() will tell you!
 
 ### PLOTTING
 
@@ -42,6 +49,11 @@ The dataset I prepared does not hold information for 12 questions, but I still w
 
 * **accessing subgroups**: is there a more elegant way to access the subgroups of columns and work with them? I found a way that worked (making a request only for the subgroup of a column, store it into a variable and then accessing the subgroup subsequently via the actual column-title) But I felt there might be an easier solution I just did not come up with.
 
+*Dataset3 Takeaways*
+
+* "CParserError: Error tokenizing data. C error: Expected 2 fields in line 6, saw 17" --> googled fix: data = pd.read_csv('file1.csv', error_bad_lines=False) --> excludes whole dataset....
+
+* **myterious sign** I could only call the column 'County', when there was a mysterious sign in front of it, that cannot be seen in the text editor view of the file.... --> disappeared only after copy pasting data through three text editors.
 
 ### PLOTTING
 *Dataset1 Takeaways*
@@ -53,6 +65,6 @@ The dataset I prepared does not hold information for 12 questions, but I still w
 
 * **Pie chart**: Can you put the percentage share as a label without calculating it in advance? How to put the absolute numbers as label? Is there a way to not make it lay in "3D", but in "2D"?
 
-* **Scatter plot**: How to make x a timeline to plot incidents against? How to convert a date column in a python-readable date column?
+* **Scatter plot**: Questions that came up during plotting: How to make x a timeline to plot incidents against? How to convert a date column in a python-readable date column?
 
-* **Barh**: "IndexError: index 203 is out of bounds for axis 1 with size 106"?
+*Dataset3 Takeaways*
