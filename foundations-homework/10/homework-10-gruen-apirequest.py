@@ -1,4 +1,4 @@
-
+#cronjob syntax running on server: 0 8 * * * python3 homework-10-gruen-apirequest.py
 
 #API key: e63bc0790517df7cd7bbb5f455e7f0ce
 #Place in decimal degrees: NYC = {'Latitude': 40.7142700 , 'Longitude': -74.0059700}
