@@ -1,9 +1,9 @@
 #cronjob syntax running on server: 0 8 * * * python3 homework-10-gruen-apirequest.py
 
-#API key: e63bc0790517df7cd7bbb5f455e7f0ce
+#API key: yourapikey
 #Place in decimal degrees: NYC = {'Latitude': 40.7142700 , 'Longitude': -74.0059700}
 import requests
-weather_response = requests.get ('https://api.forecast.io/forecast/e63bc0790517df7cd7bbb5f455e7f0ce/40.7142700,-74.0059700')
+weather_response = requests.get ('https://api.forecast.io/forecast/yourapikey/40.7142700,-74.0059700')
 weather_data = weather_response.json()
 daily_weather = weather_data['daily']['data']
 
